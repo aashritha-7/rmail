@@ -1,14 +1,12 @@
 import firebase from 'firebase';
 
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyC1BRqTp29zai634K81ucO08mDaDbdbPK0",
-    authDomain: "clone-49731.firebaseapp.com",
-    projectId: "clone-49731",
-    storageBucket: "clone-49731.appspot.com",
-    messagingSenderId: "1060781095087",
-    appId: "1:1060781095087:web:d17a141a0c81f2b2b9bc5a",
-    measurementId: "G-BFYE2PTMXL"
+  apiKey: "AIzaSyDoxRIXGN-aYj5g2ybUNq7QMG4JpaOaaUQ",
+  authDomain: "rmail-59cfb.firebaseapp.com",
+  projectId: "rmail-59cfb",
+  storageBucket: "rmail-59cfb.appspot.com",
+  messagingSenderId: "405433892930",
+  appId: "1:405433892930:web:87f227c7074d3eead72ddb"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
@@ -17,3 +15,4 @@ const auth = firebase.auth();
 const provider = new firebase.auth.GoogleAuthProvider();
 
 export { db, auth, provider };
+

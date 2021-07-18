@@ -25,11 +25,11 @@ function Header() {
         <div className = "header">
             <div className = "header__left">
                 <IconButton>
-                    <MenuIcon />
+                    <MenuIcon className="black" />
                 </IconButton>
                 <img 
-                    src = "https://i.pinimg.com/originals/ae/47/fa/ae47fa9a8fd263aa364018517020552d.png"
-                    alt = ""
+                    src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzRceIIBz4GgeNszaN5SupI6p1SJE_Bzgk3Q&usqp=CAU"
+                    alt = "logo"
                 />
             </div>
 
@@ -51,7 +51,7 @@ function Header() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Header;
